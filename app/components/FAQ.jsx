@@ -15,6 +15,7 @@ const FAQ = () => {
         <span>
           <Image
             src={Star}
+            alt={"Logo"}
             width={10}
             height={10}
             className="w-10 pt-16 lg:pt-10"

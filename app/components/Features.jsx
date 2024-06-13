@@ -59,7 +59,7 @@ const Features = () => {
       </div>
       <div className="w-full hidden sm:flex justify-center items-end pr-28 rotate-45">
         {" "}
-        <Image src={Star} className="w-14" />
+        <Image src={Star} alt="fads" className="w-14" />
       </div>
       <div className=" w-full flex flex-row-reverse justify-center items-center gap-2">
         <Image
@@ -124,7 +124,7 @@ const Features = () => {
       </div>
       <div className="w-full flex justify-end items-end pr-10 sm:pr-28">
         {" "}
-        <Image src={Star} className=" w-8 sm:w-10 lg:w-14" />
+        <Image src={Star} alt="afvds" className=" w-8 sm:w-10 lg:w-14" />
       </div>
     </div>
   );
