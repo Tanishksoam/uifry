@@ -10,7 +10,7 @@ const Backgraound = () => {
         alt="Logo"
         height={10}
         width={10}
-        className="w-10 absolute top-[1.5%] left-[2%] rotate-[25deg] "
+        className="w-7 sm:w-10 absolute top-[3%] sm:top-[1.5%] left-[2%] rotate-[25deg] "
       />
 
       <Image
@@ -18,7 +18,7 @@ const Backgraound = () => {
         alt="Logo"
         height={10}
         width={10}
-        className="w-10 absolute top-[17%] left-[2%] rotate-[30deg] "
+        className="w-7 sm:w-10 absolute top-[17%] left-[2%] rotate-[30deg] "
       />
       <Image
         src={Gradient}
