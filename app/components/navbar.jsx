@@ -4,7 +4,7 @@ import { Logo } from "../../public/assets";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex  justify-between items-center bg-transparent pr-40">
+    <div className="w-full flex  justify-between items-center bg-transparent pl-20 pr-40">
       <div className=" w-full flex justify-start items-center gap-8">
         <div>
           <Image src={Logo} alt="Logo" width={120} height={60} />
@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
       </div>
       <div>
-        <button class="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-[#000000]  text-[#ffffff] rounded-md hover:bg-opacity-70 transition font-semibold shadow-md">
+        <button className="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-[#000000]  text-[#ffffff] rounded-md hover:bg-opacity-70 transition font-semibold shadow-md">
           Download
         </button>
       </div>

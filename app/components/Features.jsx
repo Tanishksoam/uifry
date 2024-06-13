@@ -12,7 +12,7 @@ import { FaBell } from "react-icons/fa";
 
 const Features = () => {
   return (
-    <div className="w-full flex flex-col justify-start items-start gap-[-40vh]">
+    <div className="w-full flex flex-col justify-start items-start gap-[-40vh] px-20">
       <div className=" w-full flex justify-center items-center gap-2">
         <Image
           src={FeaturesImage1}
@@ -94,7 +94,7 @@ const Features = () => {
           height={60}
           className="w-1/2 "
         />
-        <div className="w-1/2 flex  flex-col justify-start items-start gap-2 pr-8">
+        <div className="w-1/2 flex  flex-col justify-start items-start gap-2 pr-10">
           <div className=" w-full flex flex-col justify-start items-start gap-2 py-2 text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold py-2">
               <div className="w-auto rounded-full bg-[#ff5555] p-[6px] flex justify-center items-center ">

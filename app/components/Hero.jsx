@@ -6,7 +6,7 @@ import { FaRegCirclePlay } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className=" w-full flex justify-center items-center gap-1 ">
+    <div className=" w-full flex justify-center items-center gap-1 px-20 ">
       <div className="w-1/2 flex flex-col justify-center items-center gap-2 pt-20">
         <div className="w-full flex flex-col items-start justify-center gap-4">
           <div className=" w-full flex font-bold text-6xl">
@@ -19,13 +19,13 @@ const Hero = () => {
             </h4>
           </div>
           <div className=" w-full flex justify-start items-center font-normal text-xl">
-            <button class="cursor-pointer  group relative flex gap-2 px-8 py-4 bg-[#000000]  text-[#ffffff] rounded-md hover:bg-opacity-70 transition  shadow-md">
+            <button className="cursor-pointer  group relative flex gap-2 px-8 py-4 bg-[#000000]  text-[#ffffff] rounded-md hover:bg-opacity-70 transition  shadow-md">
               <div>Get Started</div>
               <div className="flex justify-center items-baseline ">
                 <HiArrowLongRight size="1.8rem" />
               </div>
             </button>
-            <button class="cursor-pointer group relative flex gap-3 px-8 py-4 bg-transparent  text-[#000000] rounded-md hover:bg-opacity-70 transition ">
+            <button className="cursor-pointer group relative flex gap-3 px-8 py-4 bg-transparent  text-[#000000] rounded-md hover:bg-opacity-70 transition ">
               <div className="flex justify-center items-baseline py-1 ">
                 <FaRegCirclePlay size="1.8rem" />
               </div>
@@ -45,7 +45,7 @@ const Hero = () => {
           alt="Hero Image"
           width={700}
           height={600}
-          className=" absolute top-[-50vh]"
+          className=" absolute top-[-45vh]"
         />
       </div>
     </div>

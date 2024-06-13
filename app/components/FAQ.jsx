@@ -6,7 +6,7 @@ const FAQ = () => {
   const secondary = "#ffffff";
   const tertiary = "#000000";
   return (
-    <div className=" w-full flex flex-col justify-start items-start gap-2 px-10">
+    <div className=" w-full flex flex-col justify-start items-start gap-2 px-24">
       <h3 className=" text-lg text-[#ff5555]">FAQ</h3>
       <h1 className=" w-1/2 text-5xl font-bold">Frequently Asked Questions</h1>
       <div className=" w-full grid grid-flow-row grid-cols-2 ">
