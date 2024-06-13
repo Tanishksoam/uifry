@@ -23,7 +23,7 @@ const Features = () => {
         />
         <div className="w-1/2 flex  flex-col justify-start items-start gap-2">
           <h4 className=" text-[#FF5555] text-xl"> FEATURES</h4>
-          <h2 className=" text-6xl font-semibold">Uifry Premium</h2>
+          <h2 className=" text-5xl font-semibold">Uifry Premium</h2>
           <div className=" w-full flex flex-col justify-start items-start gap-2 text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold">
               <PiStarFourLight size="1.5rem" color="#FF5555" />
