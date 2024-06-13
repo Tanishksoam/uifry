@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { DownloadApp } from "@/public/assets";
+import { DownloadApp } from "../../public/assets";
 import { FaApple } from "react-icons/fa";
 
 const DownaloadApp = () => {

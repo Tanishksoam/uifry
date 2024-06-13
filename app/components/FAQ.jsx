@@ -1,7 +1,7 @@
 import React from "react";
 import Faq_box from "./Faq_box";
 import Image from "next/image";
-import Star from "@/public/assets";
+import Star from "../../public/assets";
 
 const FAQ = () => {
   const primary = "#ff5555";

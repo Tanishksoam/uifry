@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Star, Gradient } from "@/public/assets";
+import { Star, Gradient } from "../../public/assetss";
 
 const Backgraound = () => {
   return (
