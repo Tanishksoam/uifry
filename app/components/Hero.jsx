@@ -7,7 +7,7 @@ import { FaRegCirclePlay } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div className=" w-full flex justify-center items-center gap-1 ">
-      <div className="w-1/2 flex flex-col justify-center items-center gap-2 py-20">
+      <div className="w-1/2 flex flex-col justify-center items-center gap-2 pt-20">
         <div className="w-full flex flex-col items-start justify-center gap-4">
           <div className=" w-full flex font-bold text-6xl">
             <h1>Make The Best Financial Decisions</h1>
