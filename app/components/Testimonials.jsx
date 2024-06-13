@@ -5,7 +5,7 @@ import { Testimonail, Profile } from "../../public/assets";
 const Testimonials = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div>TESTIMONIALS</div>
+      <div className="text-lg">TESTIMONIALS</div>
       <div className="w-1/2 text-5xl font-bold  text-center">
         <p>What Our Users </p>
         <p>Say About Us? </p>
