@@ -8,12 +8,17 @@ const FAQ = () => {
   const secondary = "#ffffff";
   const tertiary = "#000000";
   return (
-    <div className=" w-full flex flex-col justify-start items-start gap-2 px-24">
-      <h3 className=" text-lg text-[#ff5555]">FAQ</h3>
-      <h1 className=" w-full text-5xl font-bold flex  gap-20">
+    <div className=" w-full flex flex-col justify-start items-start gap-2 py-10 sm:py-0 px-8 sm:px-24">
+      <h3 className=" text-md sm:text-lg text-[#ff5555]">FAQ</h3>
+      <h1 className=" w-full text-3xl sm:text-5xl font-bold flex  gap-20">
         <span className="w-1/2">Frequently Asked Questions </span>
         <span>
-          <Image src={Star} width={10} height={10} className="w-10 pt-10" />
+          <Image
+            src={Star}
+            width={10}
+            height={10}
+            className="w-10 pt-16 lg:pt-10"
+          />
         </span>
       </h1>
       <div className=" w-full grid grid-flow-row grid-cols-2 ">

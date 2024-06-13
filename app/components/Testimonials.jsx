@@ -5,16 +5,16 @@ import { Testimonail, Profile } from "../../public/assets";
 const Testimonials = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="text-lg">TESTIMONIALS</div>
-      <div className="w-1/2 text-5xl font-bold  text-center">
+      <div className=" text-md sm:text-lg">TESTIMONIALS</div>
+      <div className="w-full sm:w-1/2 text-3xl sm:text-5xl font-bold  text-center">
         <p>What Our Users </p>
         <p>Say About Us? </p>
       </div>
-      <div className="w-full flex justify-center items-center">
-        <div className=" w-1/2 flex justify-center items-center">
+      <div className="w-full flex flex-col sm:flex-row justify-center items-center">
+        <div className=" w-full sm:w-1/2  flex justify-center items-center">
           <Image src={Testimonail} alt="Testimonial" className="w-full" />
         </div>
-        <div className=" w-1/2 flex flex-col justify-start items-start gap-4 top-0 pr-20 ">
+        <div className="w-full sm:w-1/2 flex flex-col justify-start items-start gap-4 top-0 px-8 sm:pr-20 ">
           <h2 className=" text-3xl font-semibold capitalize">
             the best financial accounting app ever!
           </h2>

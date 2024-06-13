@@ -13,19 +13,19 @@ import { FaBell } from "react-icons/fa";
 
 const Features = () => {
   return (
-    <div className="w-full flex flex-col justify-start items-start gap-[-40vh] px-20">
+    <div className="w-full flex flex-col justify-start items-start gap-[-40vh] px-8 sm:px-20">
       <div className=" w-full flex justify-center items-center gap-2">
         <Image
           src={FeaturesImage1}
           alt="Logo"
           width={120}
           height={60}
-          className="w-1/2 "
+          className="w-1/2 sm:flex hidden "
         />
-        <div className="w-1/2 flex  flex-col justify-start items-start gap-2">
-          <h4 className=" text-[#FF5555] text-xl"> FEATURES</h4>
-          <h2 className=" text-5xl font-semibold">Uifry Premium</h2>
-          <div className=" w-full flex flex-col justify-start items-start gap-2 text-lg">
+        <div className="w-full sm:w-1/2 flex  flex-col justify-start items-start gap-2">
+          <h4 className=" text-[#FF5555] text-md sm:text-xl"> FEATURES</h4>
+          <h2 className=" text-3xl sm:text-5xl font-semibold">Uifry Premium</h2>
+          <div className=" w-full flex flex-col justify-start items-start gap-2 text-sm sm:text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold">
               <PiStarFourLight size="1.5rem" color="#FF5555" />
               <h4>Budgeting Intervals</h4>
@@ -35,7 +35,7 @@ const Features = () => {
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </p>
           </div>
-          <div className=" w-full flex flex-col justify-start items-start gap-2 text-lg">
+          <div className=" w-full flex flex-col justify-start items-start gap-2 text-sm sm:text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold ">
               <PiCubeTransparent size="1.5rem" color="#FF5555" />
               <h4>Budgeting Intervals</h4>
@@ -45,7 +45,7 @@ const Features = () => {
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </p>
           </div>
-          <div className=" w-full flex flex-col justify-start items-start gap-2 text-lg">
+          <div className=" w-full flex flex-col justify-start items-start gap-2 text-sm sm:text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold">
               <TbHexagonalPyramid size="1.5rem" color="#FF5555" />
               <h4>Budgeting Intervals</h4>
@@ -57,7 +57,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center items-end pr-28 rotate-45">
+      <div className="w-full hidden sm:flex justify-center items-end pr-28 rotate-45">
         {" "}
         <Image src={Star} className="w-14" />
       </div>
@@ -67,13 +67,15 @@ const Features = () => {
           alt="Logo"
           width={120}
           height={60}
-          className="w-1/2 "
+          className="w-1/2  sm:flex hidden"
         />
 
-        <div className="w-1/2 flex  flex-col justify-start items-start gap-2 pl-10">
-          <h4 className=" text-[#FF5555] text-xl"> ADVANTAGES</h4>
-          <h2 className=" text-5xl font-semibold">Why Choose Uifry?</h2>
-          <div className=" w-full flex flex-col justify-start items-start gap-2 py-2 text-lg">
+        <div className="w-fullw-1/2 flex  flex-col justify-start items-start gap-2 py-8 sm:py-0 sm:pl-10">
+          <h4 className=" text-[#FF5555] text-md sm:text-xl"> ADVANTAGES</h4>
+          <h2 className=" text-3xl sm:text-5xl font-semibold">
+            Why Choose Uifry?
+          </h2>
+          <div className=" w-full flex flex-col justify-start items-start gap-2 py-2 text-sm sm:text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold py-2">
               <div className="w-auto rounded-full bg-[#ff5555] p-[6px] flex justify-center items-center ">
                 <FaBell size="1.2rem" color="#ffffff" />
@@ -98,10 +100,10 @@ const Features = () => {
           alt="Logo"
           width={120}
           height={60}
-          className="w-1/2 "
+          className="w-1/2 hidden sm:flex "
         />
-        <div className="w-1/2 flex  flex-col justify-start items-start gap-2 pr-10">
-          <div className=" w-full flex flex-col justify-start items-start gap-2 py-2 text-lg">
+        <div className="w-full sm:w-1/2 flex  flex-col justify-start items-start gap-2  sm:pr-10">
+          <div className=" w-full flex flex-col justify-start items-start gap-2 py-2 text-sm sm:text-lg">
             <div className=" w-full flex justify-start items-start gap-2 font-semibold py-2">
               <div className="w-auto rounded-full bg-[#ff5555] p-[6px] flex justify-center items-center ">
                 <PiStarFourLight size="1.3rem" color="#ffffff" />
@@ -120,9 +122,9 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-end items-end pr-28">
+      <div className="w-full flex justify-end items-end pr-10 sm:pr-28">
         {" "}
-        <Image src={Star} className="w-14" />
+        <Image src={Star} className=" w-8 sm:w-10 lg:w-14" />
       </div>
     </div>
   );
