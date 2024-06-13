@@ -40,13 +40,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-1/2 flex flex-col justify-start items-start overflow-visible relative">
-        <Image
-          src={HeroImage}
-          alt="Hero Image"
-          width={700}
-          height={600}
-          className=" absolute top-[-45vh]"
-        />
+        <Image src={HeroImage} alt="Hero Image" width={700} height={600} />
       </div>
     </div>
   );

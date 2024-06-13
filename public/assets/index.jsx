@@ -7,6 +7,8 @@ import FeaturesImage3 from "./feature3.svg";
 import Testimonail from "./testimonial.svg";
 import Profile from "./profiles.svg";
 import DownloadApp from "./DownloadApp.svg";
+import Star from "./star.svg";
+import Gradient from "./gradient.svg";
 
 export {
   Logo,
@@ -18,4 +20,6 @@ export {
   Testimonail,
   Profile,
   DownloadApp,
+  Star,
+  Gradient,
 };

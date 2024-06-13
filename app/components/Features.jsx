@@ -4,6 +4,7 @@ import {
   FeaturesImage1,
   FeaturesImage2,
   FeaturesImage3,
+  Star,
 } from "@/public/assets";
 import { PiStarFourLight } from "react-icons/pi";
 import { PiCubeTransparent } from "react-icons/pi";
@@ -56,6 +57,10 @@ const Features = () => {
           </div>
         </div>
       </div>
+      <div className="w-full flex justify-center items-end pr-28 rotate-45">
+        {" "}
+        <Image src={Star} className="w-14" />
+      </div>
       <div className=" w-full flex flex-row-reverse justify-center items-center gap-2">
         <Image
           src={FeaturesImage2}
@@ -64,6 +69,7 @@ const Features = () => {
           height={60}
           className="w-1/2 "
         />
+
         <div className="w-1/2 flex  flex-col justify-start items-start gap-2 pl-10">
           <h4 className=" text-[#FF5555] text-xl"> ADVANTAGES</h4>
           <h2 className=" text-5xl font-semibold">Why Choose Uifry?</h2>
@@ -114,8 +120,10 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      <div className="w-full flex justify-end items-end pr-28">
+        {" "}
+        <Image src={Star} className="w-14" />
+      </div>
     </div>
   );
 };
